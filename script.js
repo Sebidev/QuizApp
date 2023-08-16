@@ -102,11 +102,11 @@ function answer(selection){
         }
         rightanswers_total++;
     } else {
-            document.getElementById(selection).parentNode.classList.add("bg-danger");
-            document.getElementById(selection).parentNode.classList.add("text-white");
-            for(let i = 1; i <= 4; i++){
-                document.getElementById("answer-btn"+i).disabled = true;
-            }
+        document.getElementById(selection).parentNode.classList.add("bg-danger");
+        document.getElementById(selection).parentNode.classList.add("text-white");
+        for(let i = 1; i <= 4; i++){
+            document.getElementById("answer-btn"+i).disabled = true;
+        }
     }
     document.getElementById('next-question').disabled = false;
 }
