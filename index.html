@@ -37,30 +37,30 @@
             <div class="card-body">
                 <h5 id="ask" class="card-title">Frage</h5>
             </div>
-            <div class="card mb-2 quiz-answer-card" onclick="answer('answer1')">
+            <button id="answer-btn1" class="card mb-2 quiz-answer-card" onclick="answer('answer1')">
                 <div id="answer1" class="card-body">
                   Antwort 1
                 </div>
-            </div>
-            <div class="card mb-2 quiz-answer-card" onclick="answer('answer2')">
+            </button>
+            <button id="answer-btn2" class="card mb-2 quiz-answer-card" onclick="answer('answer2')">
                 <div id="answer2" class="card-body">
                     Antwort 2
                 </div>
-            </div>
-            <div class="card mb-2 quiz-answer-card" onclick="answer('answer3')">
+            </button>
+            <button id="answer-btn3" class="card mb-2 quiz-answer-card" onclick="answer('answer3')">
                 <div id="answer3" class="card-body">
                     Antwort 3
                 </div>
-            </div>
-            <div class="card mb-2 quiz-answer-card" onclick="answer('answer4')">
+            </button >
+            <button id="answer-btn4" class="card mb-2 quiz-answer-card" onclick="answer('answer4')">
                 <div id="answer4" class="card-body">
                     Antwort 4
                 </div>
-            </div>
+            </button>
 
             <div class="question-footer">
                 <span class="card-body"><b id="current_question"></b> von <b id="max_questions"></b> Fragen</span>
-                <button type="button" id="next-question" onclick="next_question()" class=" btn btn-primary" disabled>Nächste Frage</button>
+                <button type="button" id="next-question" onclick="next_question()" class="btn btn-primary" disabled>Nächste Frage</button>
             </div>
         </div>
     </div>
